@@ -1,0 +1,32 @@
+.contador {
+    min-width:20rem;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3rem;
+    text-align: center;
+}
+
+.boton {
+    min-width: 2.5rem;
+    min-height: 2.5rem;
+    vertical-align:middle;
+    font-size: 1.5rem;
+}
+
+.reset {
+    margin-left: 1rem;
+}
+
+.numero {
+    margin: 0 20px;
+    vertical-align: middle;
+}
+
+.no-select {
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+    -moz-user-select: none;     /* Firefox all */
+    -ms-user-select: none;      /* IE 10+ */
+    user-select: none;          /* Likely future */     
+  }
